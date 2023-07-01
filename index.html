@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--site icon-->
+    <!-- <link rel="icon" href="img/1.png" /> -->
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--hover.cs-->
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <!--Font-awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Bootstrap Project one</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand text-light" href="#">AMD Store</a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link text-light active"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#about">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#service">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              class="btn btn-outline-light bg-primary m-2 hvr-pulse"
+              type="submit"
+            >
+              Search
+            </button>
+            <button
+              class="btn btn-outline-light bg-danger m-2 hvr-pulse"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--carousel-->
+    <div
+      id="carouselExampleSlidesOnly"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            style="height: 400px"
+            src="img/1.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 400px"
+            src="img/2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 400px"
+            src="img/3.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <!--about us-->
+    <div class="container" id="about">
+      <div class="row">
+        <h3 class="text-center">about us</h3>
+        <div class="col col-lg-12">
+          <div class="row">
+            <div
+              class="col col-lg-3 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-bounce-to-top"
+            >
+              <h5 class="text-info text-center">Buying</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                necessitatibus minus illo officiis perspiciatis impedit
+                dignissimos autem quas tenetur laborum eius blanditiis
+                reiciendis officia ducimus amet incidunt beatae quidem nam
+                commodi veritatis odit rem! Nostrum sed velit dolorem quasi
+                deserunt!
+              </p>
+            </div>
+            <div
+              class="col col-lg-4 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-bounce-to-top"
+            >
+              <h5 class="text-info text-center">Selling</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate necessitatibus voluptatem officiis quis, unde placeat
+                neque quasi cum dolores eaque, eos sequi tempora minus debitis
+                magnam aliquid! Porro eligendi odit placeat veniam, impedit
+                iusto blanditiis ratione ipsam quae ad earum! Lorem, ipsum dolor
+                sit amet consectetur adipisicing elit. Dolor nam porro
+                exercitationem hic? Quaerat ullam quis animi autem!
+              </p>
+            </div>
+            <div
+              class="col col-lg-3 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-bounce-to-top"
+            >
+              <h5 class="text-info text-center">Watch</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                ullam natus eos laboriosam perferendis asperiores aut, ipsum ab
+                in quas! Voluptatibus similique labore fugit repellat sapiente!
+                Sequi, quo? Repellendus aliquid labore porro sapiente amet aut
+                ad natus mollitia ut maiores!
+              </p>
+            </div>
+            <br />
+            <div
+              class="col col-lg-3 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-radial-out"
+            >
+              <h5 class="text-info text-center">Buying</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                necessitatibus minus illo officiis perspiciatis impedit
+                dignissimos autem quas tenetur laborum eius blanditiis
+                reiciendis officia ducimus amet incidunt beatae quidem nam
+                commodi veritatis odit rem! Nostrum sed velit dolorem quasi
+                deserunt!
+              </p>
+            </div>
+            <div
+              class="col col-lg-4 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-radial-out"
+            >
+              <h5 class="text-info text-center">Selling</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptate necessitatibus voluptatem officiis quis, unde placeat
+                neque quasi cum dolores eaque, eos sequi tempora minus debitis
+                magnam aliquid! Porro eligendi odit placeat veniam, impedit
+                iusto blanditiis ratione ipsam quae ad earum! Lorem ipsum dolor
+                sit amet consectetur adipisicing elit. Illo, deserunt aliquid
+                cum ex fugit dolor perferendis architecto doloribus?
+              </p>
+            </div>
+            <div
+              class="col col-lg-3 col-md-12 col-sm-6 bg-dark text-light m-4 p-3 rounded hvr-radial-out"
+            >
+              <h5 class="text-info text-center">Watch</h5>
+              <p class="lead text-center">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem
+                ullam natus eos laboriosam perferendis asperiores aut, ipsum ab
+                in quas! Voluptatibus similique labore fugit repellat sapiente!
+                Sequi, quo? Repellendus aliquid labore porro sapiente amet aut
+                ad natus mollitia ut maiores!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!--services-->
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center" id="service">Services</h3>
+        <div class="col-lg-12">
+          <div class="row">
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img src="img/9.jpg" class="img-responsive rounded-circle w-50" />
+              <p class="lead text-info">Realme</p>
+              <p class="lead text-light">price: 10,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 bg-dark col-md-12 col-sm-6 rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img
+                src="img/12.jpg"
+                class="img-responsive rounded-circle w-50"
+              />
+              <p class="lead text-info">Realme</p>
+              <p class="lead text-light">price: 13,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 bg-dark col-md-12 col-sm-6 rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img src="img/6.jpg" class="img-responsive rounded-circle w-50" />
+              <p class="lead text-info">i-phone 12</p>
+              <p class="lead text-light">price: 25,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <br />
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img src="img/7.jpg" class="img-responsive rounded-circle w-50" />
+              <p class="lead text-info">i-phone 13 pro-max</p>
+              <p class="lead text-light">price: 35,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img src="img/8.jpg" class="img-responsive rounded-circle w-50" />
+              <p class="lead text-info">i-phone 11</p>
+              <p class="lead text-light">price: 20,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img src="img/9.jpg" class="img-responsive rounded-circle w-50" />
+              <p class="lead text-info">Realme</p>
+              <p class="lead text-light">price: 13,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <br />
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img
+                src="img/10.jpg"
+                class="img-responsive rounded-circle w-50"
+              />
+              <p class="lead text-info">infinix</p>
+              <p class="lead text-light">price: 13,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img
+                src="img/11.jpg"
+                class="img-responsive rounded-circle w-50"
+              />
+              <p class="lead text-info">Realme</p>
+              <p class="lead text-light">price: 10,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+            <div
+              class="col-lg-4 col-md-12 col-sm-6 bg-dark rounded m-3 hvr-float-shadow text-center p-3"
+              style="height: 300px; width: 340px"
+            >
+              <img
+                src="img/12.jpg"
+                class="img-responsive rounded-circle w-50"
+              />
+              <p class="lead text-info">i-phone 11</p>
+              <p class="lead text-light">price: 17,000 EP</p>
+              <p class="lead text-light">made in china</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <!-------------------------------------------------------->
+    <!--contact us-->
+    <div class="container" id="contact">
+      <h3 class="text-center" id="service">contact us</h3>
+      <br />
+      <div class="col-lg-12 col-md-12 col-sm-6 ps-5 border border-2 m-3 p-4">
+        <div class="row">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="name@example.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Type your opinion</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+            <button class="btn text-light bg-danger m-3 w-25">send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i> </span
+          ></a>
+
+          <!-- Twitter -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i> </span
+          ></a>
+
+          <!-- Google -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-google fa-stack-1x"></i> </span
+          ></a>
+
+          <!-- Instagram -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-instagram fa-stack-1x"></i> </span
+          ></a>
+
+          <!-- Linkedin -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-linkedin fa-stack-1x"></i> </span
+          ></a>
+
+          <!-- Github -->
+          <a>
+            <span class="fa-stack fa-lg">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-github fa-stack-1x"></i> </span
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Form -->
+        <section class="">
+          <form action="">
+            <!--Grid row-->
+            <div class="row d-flex justify-content-center">
+              <!--Grid column-->
+              <div class="col-auto">
+                <p class="pt-2">
+                  <strong>Sign up</strong>
+                </p>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-md-5 col-12">
+                <!-- Email input -->
+                <div class="form-outline form-white mb-4">
+                  <input
+                    type="email"
+                    id="form5Example21"
+                    class="form-control"
+                  />
+                  <label class="form-label" for="form5Example21"
+                    >Email address</label
+                  >
+                </div>
+              </div>
+              <!--Grid column-->
+
+              <!--Grid column-->
+              <div class="col-auto">
+                <!-- Submit button -->
+                <button type="submit" class="btn btn-outline-light mb-4">
+                  Subscribe
+                </button>
+              </div>
+              <!--Grid column-->
+            </div>
+            <!--Grid row-->
+          </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+            distinctio earum repellat quaerat voluptatibus placeat nam, commodi
+            optio pariatur est quia magnam eum harum corrupti dicta, aliquam
+            sequi voluptate quas.
+          </p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">i-phone</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">i-phone 11</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">i-phone 11 pro</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">i-phone 12</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">i-phone 12 pro</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Realme</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Realme C5</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Realme C21Y</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Realme C6</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Realme C7</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Samsung</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">Samsung 20</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Samsung 21</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Samsung 11</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Samsung 6</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Nokia</h5>
+
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white">nokia 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">nokia 2</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">nokia 3</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">nokia 4</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2023 Copyright:
+        <a class="text-white" href="#">esra aasem</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!--Jquery-->
+    <script src="js/jquery.min.js"></script>
+    <!--Bootstrap-->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
